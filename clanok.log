@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.10.7)  7 OCT 2025 15:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.10.7)  14 OCT 2025 14:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -397,6 +397,11 @@ LaTeX Warning: Reference `ina:nejake' on page 1 undefined on input line 67.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 67.
 
+Underfull \hbox (badness 3503) in paragraph at lines 67--68
+\IL2/cmr/m/n/10 Z^^e1kladn^^fdm probl^^e9mom je teda... Najprv sa
+ []
+
+
 LaTeX Warning: Citation `Coplien:MPD' on page 1 undefined on input line 69.
 
 
@@ -411,35 +416,106 @@ LaTeX Warning: Citation `Czarnecki:Progress' on page 1 undefined on input line
 LaTeX Warning: Citation `PLP-Framework' on page 1 undefined on input line 69.
 
 
+Underfull \hbox (badness 1019) in paragraph at lines 69--70
+\IL2/cmr/m/n/10 tomu, aj dnes na webe naraz^^edme na v^^b9elijak^^e9
+ []
 
-[1
 
-{/Users/anto/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pd
-ftex.map}]
-<diagram1.pdf, id=29, 421.575pt x 220.825pt>
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+ []\IL2/cmr/bx/n/10 Ve^^b5mi d^^f4le^^beit^^e1 pozn^^e1mka.[] \IL2/cmr/m/n/10 N
+iekedy je
+ []
+
+<diagram1.pdf, id=4, 421.575pt x 220.825pt>
 File: diagram1.pdf Graphic file (type pdf)
 <use diagram1.pdf>
-Package pdftex.def Info: diagram1.pdf  used on input line 118.
-(pdftex.def)             Requested size: 295.10048pt x 154.57643pt.
+Package pdftex.def Info: diagram1.pdf  used on input line 120.
+(pdftex.def)             Requested size: 421.57396pt x 220.82445pt.
+! Missing number, treated as zero.
+<to be read again> 
+                   a
+l.125   \begin{minipage}{angle=90,0.30\textwidth}
+                                                 
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   a
+l.125   \begin{minipage}{angle=90,0.30\textwidth}
+                                                 
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.125   \begin{minipage}{angle=90,0.30\textwidth}
+                                                 
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.125   \begin{minipage}{angle=90,0.30\textwidth}
+                                                 
+? 
+<diagram2.pdf, id=5, 180.675pt x 321.2pt>
+File: diagram2.pdf Graphic file (type pdf)
+<use diagram2.pdf>
+Package pdftex.def Info: diagram2.pdf  used on input line 127.
+(pdftex.def)             Requested size: 0.0pt x 0.0pt.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.119 \caption{Diagram_1}
-                         
+Overfull \hbox (30.02785pt too wide) in paragraph at lines 128--128
+[]\IL2/cmr/m/n/10 Obr. 3:
+ []
+
+
+Overfull \hbox (37.66676pt too wide) in paragraph at lines 128--128
+[]\IL2/cmr/m/n/10 Diagram
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 128--128
+\IL2/cmr/m/n/10 2 
+ []
+
+! Missing number, treated as zero.
+<to be read again> 
+                   a
+l.130   \end{minipage}
+                      
 ? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.119 \caption{Diagram_1}
-                         
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   a
+l.130   \end{minipage}
+                      
 ? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.130   \end{minipage}
+                      
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.130   \end{minipage}
+                      
+? 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 No file clanok.bbl.
 
 
+[1{/Users/anto/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/
+pdftex.map}
+
+
+]
 Package babel Info: 'slovak' activates 'slovak' shorthands.
-(babel)             Reported on input line 131.
-[2 </Users/anto/MIP/cv3/diagram1.pdf>] (clanok.aux)
+(babel)             Reported on input line 141.
+ [2] [3 </Users/anto/MIP/cv3/diagram1.pdf> </Users/anto/MIP/cv3/diagram2.pdf>] 
+(clanok.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -461,42 +537,40 @@ Package rerunfilecheck Info: Checksums for `clanok.out':
 (rerunfilecheck)             After:  5545DA784E8E103C1270E97A2772FA55;968.
  ) 
 Here is how much of TeX's memory you used:
- 10189 strings out of 470071
- 162934 string characters out of 5480469
- 576361 words of memory out of 5000000
- 38436 multiletter control sequences out of 15000+600000
- 640163 words of font info for 71 fonts, out of 8000000 for 9000
+ 10200 strings out of 470071
+ 163151 string characters out of 5480469
+ 582409 words of memory out of 5000000
+ 38445 multiletter control sequences out of 15000+600000
+ 639586 words of font info for 70 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 75i,8n,79p,360b,560s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,10n,79p,360b,517s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/anto/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/
-jknappen/ec/dpi600/tcrm1000.pk> </Users/anto/Library/Application Support/MiKTeX
-/texmfs/data/fonts/pk/ljfour/public/csfonts/dpi600/csbx12.pk> </Users/anto/Libr
-ary/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/public/csfonts/dpi60
-0/cssl10.pk> </Users/anto/Library/Application Support/MiKTeX/texmfs/data/fonts/
+public/csfonts/dpi600/cstt10.pk> </Users/anto/Library/Application Support/MiKTe
+X/texmfs/data/fonts/pk/ljfour/public/csfonts/dpi600/cssl10.pk> </Users/anto/Lib
+rary/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/
+tcrm1000.pk> </Users/anto/Library/Application Support/MiKTeX/texmfs/data/fonts/
 pk/ljfour/public/csfonts/dpi600/csr6.pk> </Users/anto/Library/Application Suppo
 rt/MiKTeX/texmfs/data/fonts/pk/ljfour/public/csfonts/dpi600/csr8.pk> </Users/an
 to/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/d
 pi600/tcrm0600.pk> </Users/anto/Library/Application Support/MiKTeX/texmfs/data/
-fonts/pk/ljfour/public/csfonts/dpi600/csti10.pk> </Users/anto/Library/Applicati
-on Support/MiKTeX/texmfs/data/fonts/pk/ljfour/public/csfonts/dpi600/csr7.pk> </
-Users/anto/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/publi
-c/csfonts/dpi600/cstt10.pk> </Users/anto/Library/Application Support/MiKTeX/tex
+fonts/pk/ljfour/public/csfonts/dpi600/csbx12.pk> </Users/anto/Library/Applicati
+on Support/MiKTeX/texmfs/data/fonts/pk/ljfour/public/csfonts/dpi600/csti10.pk> 
+</Users/anto/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/pub
+lic/csfonts/dpi600/csr7.pk> </Users/anto/Library/Application Support/MiKTeX/tex
 mfs/data/fonts/pk/ljfour/public/csfonts/dpi600/csbx10.pk> </Users/anto/Library/
 Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/public/csfonts/dpi600/cs
 r10.pk> </Users/anto/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/lj
 four/public/csfonts/dpi720/csbx12.pk> </Users/anto/Library/Application Support/
-MiKTeX/texmfs/data/fonts/pk/ljfour/public/csfonts/dpi600/csbx9.pk> </Users/anto
+MiKTeX/texmfs/data/fonts/pk/ljfour/public/csfonts/dpi600/cstt9.pk> </Users/anto
 /Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/public/csfonts/
-dpi600/cstt9.pk> </Users/anto/Library/Application Support/MiKTeX/texmfs/data/fo
-nts/pk/ljfour/public/csfonts/dpi600/csr9.pk> </Users/anto/Library/Application S
-upport/MiKTeX/texmfs/data/fonts/pk/ljfour/public/csfonts/dpi600/csr12.pk> </Use
-rs/anto/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen
-/ec/dpi600/tcrm1200.pk> </Users/anto/Library/Application Support/MiKTeX/texmfs/
-data/fonts/pk/ljfour/public/csfonts/dpi600/csr17.pk></Users/anto/Library/Applic
-ation Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on clanok.pdf (2 pages, 123173 bytes).
+dpi600/csr9.pk> </Users/anto/Library/Application Support/MiKTeX/texmfs/data/fon
+ts/pk/ljfour/public/csfonts/dpi600/csr12.pk> </Users/anto/Library/Application S
+upport/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk> </Use
+rs/anto/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/public/c
+sfonts/dpi600/csr17.pk>
+Output written on clanok.pdf (3 pages, 121685 bytes).
 PDF statistics:
- 404 PDF objects out of 1000 (max. 8388607)
- 19 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 415 PDF objects out of 1000 (max. 8388607)
+ 22 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

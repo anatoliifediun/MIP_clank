@@ -100,12 +100,6 @@ Ten istý zoznam, len číslovaný:
 Niekedy je potrebné nadpisom označiť odsek. Text pokračuje hneď za nadpisom.
 
 
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.7]{diagram2.pdf}
-\caption{Diagram 2}
-\label{fig:diagram2}
-\end{figure}
 
 \section{Dôležitá časť} \label{dolezita}
 
@@ -120,10 +114,20 @@ Niekedy je potrebné nadpisom označiť odsek. Text pokračuje hneď za nadpisom
 \section{Záver} \label{zaver} % prípadne iný variant názvu
 
 \begin{figure}[h]
-\centering
-\includegraphics[scale=0.7]{diagram1.pdf}
-\caption{Diagram 1}
-\label{fig:diagram1}
+  \centering
+  \begin{minipage}{0.45\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{diagram1.pdf}
+    \caption{Diagram 1}
+    \label{fig:diagram1}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.45\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{diagram2.pdf}
+    \caption{Diagram 2}
+    \label{fig:diagram2}
+  \end{minipage}
 \end{figure}
 
 

@@ -6,6 +6,7 @@
 %\usepackage[T1]{fontenc}
 \usepackage[IL2]{fontenc} % lepšia sadzba písmena Ľ než v T1
 \usepackage[utf8]{inputenc}
+\usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{url} % príkaz \url na formátovanie URL
 \usepackage{hyperref} % odkazy v texte budú aktívne (pri niektorých triedach dokumentov spôsobuje posun textu)
@@ -135,6 +136,24 @@ Niekedy je potrebné nadpisom označiť odsek. Text pokračuje hneď za nadpisom
   \end{minipage}
 \end{figure*}
 
+\section{Matica}
+
+\[
+A = \begin{pmatrix}
+  1 & 2 & 3 & 4 \\
+  5 & 6 & 7 & 8 \\
+  9 & 10 & 11 & 12 \\
+  13 & 14 & 15 & 16 \\
+  17 & 18 & 19 & 20
+\end{pmatrix}
+\]
+
+\section{Formula}
+
+\begin{equation}
+f(x) = \int_{-\infty}^{\infty} e^{-x^2} \cos(2\pi kx) dx + 
+       \sum_{n=1}^{N} \frac{a_n}{b_n} + \prod_{i=1}^{M} (1 + \frac{1}{i^2})
+\end{equation}
 
 
 %\acknowledgement{Ak niekomu chcete poďakovať\ldots}
